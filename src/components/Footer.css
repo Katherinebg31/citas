@@ -1,0 +1,28 @@
+.pie {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc0be; /* Color de fondo */
+    color: #464343; /* Color de texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    font-size: 14px; /* Tamaño de fuente */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .pie p {
+    margin: 0; /* Elimina el margen del párrafo */
+  }
+  
+  /* Estilos para el enlace del footer */
+  .pie a {
+    color: #3a3939; /* Color del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+  }
+  
+  .pie a:hover {
+    color: #007bff; /* Cambio de color al pasar el mouse */
+  }
+  

@@ -1,0 +1,89 @@
+/* Estilos generales para la barra de navegación */
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2232; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilos para el contenedor del ícono y el título */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el ícono */
+.icono {
+    font-size: 44px;
+    color: #ffffff;
+}
+
+/* Estilos para el título */
+.barra h1 {
+    font-size: 1.5rem;
+    margin-left: 10px; /* Ajusta el margen según sea necesario */
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5); /* Sombras en blanco */
+    
+}
+
+/* Estilos para la lista de enlaces */
+.barra ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+/* Estilos para los elementos de la lista */
+.barra li {
+    margin-right: 1rem;
+}
+
+/* Estilos para los enlaces */
+.barra a {
+    text-decoration: none;
+    color: #ffebe7;
+    transition: color 0.3s;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Cambio de color al pasar el mouse sobre los enlaces */
+.barra a:hover {
+    color: #cd25eb;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 5px rgb(93, 14, 129); /* Sombra blanca al hacer hover */
+}
+
+  
+/* Media query para dispositivos de pantalla más pequeños, como tablets */
+@media only screen and (max-width: 768px) {
+    /* Cambiar la disposición de la barra */
+    .barra {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5rem;
+    }
+
+    /* Estilos para el ícono en dispositivos más pequeños */
+    .barra svg {
+        font-size: 20px;
+    }
+
+    /* Estilos para el título en dispositivos más pequeños */
+    .barra h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Estilos para los elementos de la lista en dispositivos más pequeños */
+    .barra li {
+        margin-right: 5px;
+        margin-bottom: 0.5rem;
+    }
+}
+  
