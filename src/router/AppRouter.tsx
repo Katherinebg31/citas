@@ -9,10 +9,12 @@ import AgendarCitas from '../pages/AgendarCitas'; // Verifica la ruta correcta
 import Resenas from '../pages/Resenas'; // Verifica la ruta correcta
 import Contacto from '../pages/Contacto'; // Verifica la ruta correcta
 import EditarServiciosPrecios from '../pages/EditarServiciosPrecios'; // Verifica la ruta correcta
+import VideoBg from '../pages/VideoBg'; // Importa el componente VideoBg
 
 const AppRouter: React.FC = () => {
   return (
     <Router>
+       <VideoBg /> {/* Coloca el componente VideoBg aquí */}
       <Navbar /> {/* Agrega el Navbar aquí */}
       <Routes>
         <Route path="/" element={<Inicio />} />
